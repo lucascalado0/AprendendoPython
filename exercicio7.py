@@ -2,7 +2,7 @@
 
 lado = float (input("Informe qual o lado do quadrado: "))
 
-area = lado ** 2
+area = lado ** 2 #fórmula da área de um quadrado
 
 print("O dobro da área do quadrado é: ", area * 2)
 
