@@ -2,4 +2,6 @@
 
 metros = float(input("Digite a medida em metros: "))
 
-print("O resultado da conversão é: ", metros * 100)
+conversao = metros * 100
+
+print("O resultado da conversão é: {:.2f} cm".format(conversao))
