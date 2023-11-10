@@ -4,4 +4,4 @@ celsius = float(input("Informe a temperatura em graus Celsius: "))
 
 fahrenheit = (celsius * 1.8) + 32
 
-print("O resultado da conversão é: ", fahrenheit)
+print("O resultado da conversão é: {:.2f} ºF" .format(fahrenheit))
