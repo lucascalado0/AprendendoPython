@@ -4,5 +4,7 @@ PI = 3.14 #Neste caso, a variável PI tem função de constante
 
 raio = float(input("Informe o raio do círculo: "))
 
-print("A área do circulo é: ", PI * (raio ** 2))
+area = PI * (raio ** 2)
+
+print("A área do circulo é: {:.2f} cm2".format(area))
 
