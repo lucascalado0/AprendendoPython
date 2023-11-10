@@ -4,4 +4,4 @@ fahrenheit = float(input("Informe a temperatura em Fahrenheit: "))
 
 C = 5 * ((fahrenheit - 32) / 9)
 
-print("A temperatura correspondente em celcius é: ", C)
+print("A temperatura correspondente em celcius é: {:.2f} ºC".format(C))
