@@ -6,7 +6,7 @@ o excesso. Gravar na variável excesso a quantidade de quilos além do limite e 
 Imprima os dados do programa com as mensagens adequadas.
 """
 
-peso = float(input("Bom dia João, Por favor insira o peso total da pescaria: "))
+peso = float(input("Olá João, Por favor insira o peso total da pescaria: "))
 
 if peso <= 50:
     print("Você não precisa pagar impostos!")
