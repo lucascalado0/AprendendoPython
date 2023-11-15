@@ -6,8 +6,8 @@ num2 = float(input("Informe o segundo número: "))
 
 num3 = float(input("Informe o terceiro número: "))
 
-numeros = [num1, num2, num3]
+numeros = [num1, num2, num3] #aqui transformei os números numa lista
 
-numeros.sort(reverse = True) #a função .sort(reverse = True) faz com que os itens sejam impressos em ordem decrescente
+numeros.sort(reverse = True) #a função .sort(reverse = True) faz com que os itens da lista sejam impressos em ordem decrescente
 
 print("A ordem decrescente dos números é: ", numeros)
