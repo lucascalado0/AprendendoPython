@@ -10,7 +10,7 @@ if turno.upper() == 'M':
 elif turno.upper() == 'V':
     print("Boa tarde!")
 
-elif turno.upper() == 'Ng':
+elif turno.upper() == 'N':
     print("Boa noite!")
 
 else:
